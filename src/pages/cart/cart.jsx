@@ -3,6 +3,7 @@ import { PRODUCTS } from '../../products'
 import { ShopContext } from '../../context/shop-context';
 import { CartItem } from './cart-item';
 import { useNavigate } from 'react-router';
+
 export const Cart = () => {
 
   const { cartItems, getTotalCartAmount } = useContext(ShopContext);
